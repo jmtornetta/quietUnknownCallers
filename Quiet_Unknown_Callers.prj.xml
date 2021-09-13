@@ -1,0 +1,1048 @@
+<TaskerData sr="" dvi="1" tv="5.13.6">
+	<dmetric>1080.0,2121.0</dmetric>
+	<Profile sr="prof8" ve="2">
+		<cdate>1629489770110</cdate>
+		<edate>1631511036614</edate>
+		<flags>8</flags>
+		<id>8</id>
+		<limit>true</limit>
+		<mid0>3</mid0>
+		<nme>Quiet Unknown Callers</nme>
+		<Share sr="Share">
+			<b>false</b>
+			<d>Robo and spam callers overwhelming you? Still want to have the option to accept numbers not in your phone's contacts, without your phone ringing?
+
+"Quiet Non-Contact Callers" silences these problem callers. Calls from phone numbers that are not in your phone's contacts are silenced. You still have the option to answer them, but you will not be distracted by your phone's ringtone.
+
+Your phone will quietly notify you when an incoming call is silenced. All silenced calls will be added to a text log.</d>
+			<p>false</p>
+			<t></t>
+		</Share>
+		<Event sr="con0" ve="2">
+			<code>2094</code>
+			<pri>0</pri>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%cs_capabilities
+Capabilities
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%cs_name
+Contact Name
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%cs_incoming
+Incoming
+true if the phone call is incoming, false if you were the one initiating the call&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%cs_number
+Phone Number
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%cs_properties
+Properties
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">!C:ANY</Str>
+		</Event>
+	</Profile>
+	<Project sr="proj0" ve="2">
+		<cdate>1631467555446</cdate>
+		<name>Quiet Unknown Callers</name>
+		<pids>8</pids>
+		<scenes>Setup Instructions,Settings</scenes>
+		<tids>10,14,6,11,12,7,4,3,13,15,9</tids>
+		<Kid sr="Kid">
+			<launchID>12</launchID>
+			<pkg>com.jmtornetta.quietunknowncallers</pkg>
+			<vTarg>29</vTarg>
+			<vnme>1.0</vnme>
+			<vnum>18</vnum>
+		</Kid>
+		<Img sr="icon" ve="2">
+			<nme>hl_aaa_ext_phone_missed</nme>
+		</Img>
+	</Project>
+	<Scene sr="sceneSettings">
+		<cdate>1631478306704</cdate>
+		<edate>1631512335697</edate>
+		<gridSize>20</gridSize>
+		<heightLand>700</heightLand>
+		<heightPort>1400</heightPort>
+		<nme>Settings</nme>
+		<widthLand>1400</widthLand>
+		<widthPort>700</widthPort>
+		<ToggleElement sr="elements0">
+			<checkchangeTask>9</checkchangeTask>
+			<flags>4</flags>
+			<geom>41,381,615,179,200,491,298,150</geom>
+			<Str sr="arg0" ve="3">Profile On/Off</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">Off</Str>
+			<Str sr="arg3" ve="3">On</Str>
+			<Int sr="arg4" val="16"/>
+			<Int sr="arg5" val="100"/>
+			<Str sr="arg6" ve="3">#FFFFFF</Str>
+		</ToggleElement>
+		<TextElement sr="elements1" ve="3">
+			<flags>4</flags>
+			<geom>41,84,615,120,81,133,536,358</geom>
+			<Str sr="arg0" ve="3">App Title</Str>
+			<Str sr="arg1" ve="3">Quiet Unknown Callers</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="2"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<ButtonElement sr="elements10" ve="3">
+			<clickTask>13</clickTask>
+			<flags>4</flags>
+			<geom>41,1156,615,119,140,789,418,119</geom>
+			<Str sr="arg0" ve="3">Setup Instructions</Str>
+			<Str sr="arg1" ve="3">Setup Instructions</Str>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<TextElement sr="elements11" ve="3">
+			<flags>4</flags>
+			<geom>41,203,615,119,81,133,536,358</geom>
+			<Str sr="arg0" ve="3">Page Title</Str>
+			<Str sr="arg1" ve="3">Settings</Str>
+			<Int sr="arg2" val="24"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<ButtonElement sr="elements2" ve="3">
+			<clickTask>11</clickTask>
+			<flags>4</flags>
+			<geom>41,977,615,119,140,967,418,119</geom>
+			<Str sr="arg0" ve="3">Reset Data</Str>
+			<Str sr="arg1" ve="3">Reset Data</Str>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements3" ve="3">
+			<clickTask>10</clickTask>
+			<flags>4</flags>
+			<geom>41,620,615,119,140,789,418,119</geom>
+			<Str sr="arg0" ve="3">Show Quieted Calls</Str>
+			<Str sr="arg1" ve="3">Show Quieted Calls</Str>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<TextElement sr="elements4" ve="3">
+			<flags>4</flags>
+			<geom>41,918,615,60,260,1146,179,60</geom>
+			<Str sr="arg0" ve="3">Calls Silenced Number</Str>
+			<Str sr="arg1" ve="3">%CallsSilenced</Str>
+			<Int sr="arg2" val="8"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements5" ve="3">
+			<flags>4</flags>
+			<geom>41,858,615,60,140,1086,418,60</geom>
+			<Str sr="arg0" ve="3">Calls Silenced Header</Str>
+			<Str sr="arg1" ve="3">Total Calls Silenced:</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements6" ve="3">
+			<flags>4</flags>
+			<geom>41,1315,615,60,140,1265,418,60</geom>
+			<Str sr="arg0" ve="3">Copyright</Str>
+			<Str sr="arg1" ve="3">© 2021 by Jon Tornetta</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements7" ve="3">
+			<flags>4</flags>
+			<geom>41,798,615,60,81,908,536,119</geom>
+			<Str sr="arg0" ve="3">File Path Location</Str>
+			<Str sr="arg1" ve="3">%AppDataPath/%CallLogName</Str>
+			<Int sr="arg2" val="8"/>
+			<Int sr="arg3" val="90"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements8" ve="3">
+			<flags>4</flags>
+			<geom>41,739,615,60,81,848,536,60</geom>
+			<Str sr="arg0" ve="3">File Path Header</Str>
+			<Str sr="arg1" ve="3">Quieted Calls File Path:</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<ImageElement sr="elements9" ve="2">
+			<clickTask>4</clickTask>
+			<flags>4</flags>
+			<geom>617,0,80,80,599,0,101,133</geom>
+			<Str sr="arg0" ve="3">Close</Str>
+			<Img sr="arg1" ve="2">
+				<nme>mw_navigation_close</nme>
+			</Img>
+			<Int sr="arg2" val="255"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</ImageElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF000000</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneSetup Instructions">
+		<cdate>1631502037488</cdate>
+		<edate>1631512848113</edate>
+		<gridSize>20</gridSize>
+		<heightLand>-1</heightLand>
+		<heightPort>1400</heightPort>
+		<nme>Setup Instructions</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>700</widthPort>
+		<ImageElement sr="elements0" ve="2">
+			<flags>4</flags>
+			<geom>41,878,338,437,3,278,634,437</geom>
+			<Str sr="arg0" ve="3">Notifications</Str>
+			<Img sr="arg1" ve="2">
+				<fle>/storage/emulated/0/Pictures/Screenshots/Screenshot_20210913-010612-281.png</fle>
+			</Img>
+			<Int sr="arg2" val="255"/>
+		</ImageElement>
+		<TextElement sr="elements1" ve="3">
+			<flags>4</flags>
+			<geom>41,322,616,536,81,298,477,357</geom>
+			<Str sr="arg0" ve="3">Instructions Text</Str>
+			<Str sr="arg1" ve="3">First, ensure that the application is given all requested permissions. For "Draw Over Apps", you must scroll down and select "Quiet Unknown Callers". For "Call Screening", you must select "Quiet Unknown Callers" as the default. 
+
+Next, expand your notification settings and "Turn off" the following notifications:
+1. Placeholder
+2. Monitor
+3. Monitor (No active profiles)
+
+Finally, launch the app. Press "stop reminding" or "disable" when prompted on remaining notifications.</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="5"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements2" ve="3">
+			<flags>4</flags>
+			<geom>41,203,615,119,81,119,477,179</geom>
+			<Str sr="arg0" ve="3">Setup Heading</Str>
+			<Str sr="arg1" ve="3">Setup</Str>
+			<Int sr="arg2" val="24"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<ButtonElement sr="elements3" ve="3">
+			<clickTask>6</clickTask>
+			<flags>4</flags>
+			<geom>399,1037,258,119,81,1013,477,120</geom>
+			<Str sr="arg0" ve="3">Hide Notifications</Str>
+			<Str sr="arg1" ve="3">Hide Notifications</Str>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ImageElement sr="elements4" ve="2">
+			<clickTask>7</clickTask>
+			<flags>4</flags>
+			<geom>617,0,80,80,599,0,101,133</geom>
+			<Str sr="arg0" ve="3">Close</Str>
+			<Img sr="arg1" ve="2">
+				<nme>mw_navigation_close</nme>
+			</Img>
+			<Int sr="arg2" val="255"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</ImageElement>
+		<TextElement sr="elements5" ve="3">
+			<flags>4</flags>
+			<geom>41,84,615,119,81,133,536,358</geom>
+			<Str sr="arg0" ve="3">App Title</Str>
+			<Str sr="arg1" ve="3">Quiet Unknown Callers</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="2"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<ButtonElement sr="elements6" ve="3">
+			<clickTask>14</clickTask>
+			<flags>4</flags>
+			<geom>399,878,258,119,81,1013,477,120</geom>
+			<Str sr="arg0" ve="3">Provide Permissions</Str>
+			<Str sr="arg1" ve="3">Provide Permissions</Str>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements7" ve="3">
+			<clickTask>15</clickTask>
+			<flags>4</flags>
+			<geom>399,1196,258,120,81,1013,477,120</geom>
+			<Str sr="arg0" ve="3">Launch App</Str>
+			<Str sr="arg1" ve="3">Launch App</Str>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#000000</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Task sr="task10">
+		<cdate>1631479465835</cdate>
+		<edate>1631479465835</edate>
+		<id>10</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>342</code>
+			<label>Test Quieted Calls Log Exists</label>
+			<Int sr="arg0" val="5"/>
+			<Str sr="arg1" ve="3">%AppDataPath/%CallLogName</Str>
+			<Str sr="arg2" ve="3">%call_log_exists</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>410</code>
+			<label>Create Call Log</label>
+			<Str sr="arg0" ve="3">%AppDataPath/%CallLogName</Str>
+			<Str sr="arg1" ve="3">DATE,TIME,PHONE#</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%call_log_exists</lhs>
+					<op>2</op>
+					<rhs>false</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>102</code>
+			<Str sr="arg0" ve="3">%AppDataPath/%CallLogName</Str>
+			<Str sr="arg1" ve="3">text/csv</Str>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>550</code>
+			<label>No Data Yet</label>
+			<Str sr="arg0" ve="3"/>
+			<Str sr="arg1" ve="3">No calls have been silenced yet or your call data was recently reset.</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3">Popup</Str>
+			<Int sr="arg4" val="5"/>
+			<Int sr="arg5" val="1"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%CallsSilenced</lhs>
+					<op>13</op>
+					<rhs>false</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%CallsSilenced</lhs>
+					<op>6</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task11">
+		<cdate>1631480494588</cdate>
+		<edate>1631480494588</edate>
+		<id>11</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<label>Backup Prior Calls Silenced</label>
+			<Str sr="arg0" ve="3">%CallsSilencedBackup</Str>
+			<Str sr="arg1" ve="3">%CallsSilenced</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<label>Reset Counter</label>
+			<Str sr="arg0" ve="3">%CallsSilenced</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<label>Reset Setup Status</label>
+			<Str sr="arg0" ve="3">%InitialSetup</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>404</code>
+			<label>Backup Call Log</label>
+			<Str sr="arg0" ve="3">%AppDataPath/%CallLogName</Str>
+			<Str sr="arg1" ve="3">%AppDataPath/%DATE-bak.csv</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>406</code>
+			<label>Delete Call Log</label>
+			<Str sr="arg0" ve="3">%AppDataPath/%CallLogName</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task12">
+		<cdate>1631482549403</cdate>
+		<edate>1631511841443</edate>
+		<id>12</id>
+		<nme>Launch</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<label>Initial Setup</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%InitialSetup</lhs>
+					<op>3</op>
+					<rhs>done</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%AppDataPath</Str>
+			<Str sr="arg1" ve="3">Tasker/QuietUnknownCallers</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>342</code>
+			<label>Test Quieted Calls Log Exists</label>
+			<Int sr="arg0" val="5"/>
+			<Str sr="arg1" ve="3">%AppDataPath/%CallLogName</Str>
+			<Str sr="arg2" ve="3">%call_log_exists</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>410</code>
+			<label>Create Call Log</label>
+			<Str sr="arg0" ve="3">%AppDataPath/%CallLogName</Str>
+			<Str sr="arg1" ve="3">DATE,TIME,PHONE#</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%call_log_exists</lhs>
+					<op>2</op>
+					<rhs>false</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>47</code>
+			<label>Show Menu</label>
+			<Str sr="arg0" ve="3">Settings</Str>
+			<Int sr="arg1" val="6"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ProfileEnabled</lhs>
+					<op>2</op>
+					<rhs>off</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>50</code>
+			<label>Update On/Off Toggle</label>
+			<Str sr="arg0" ve="3">Settings</Str>
+			<Str sr="arg1" ve="3">Profile On/Off</Str>
+			<Int sr="arg2">
+				<var>0</var>
+			</Int>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>159</code>
+			<label>Check Profile Off</label>
+			<Str sr="arg0" ve="3">Quiet Unknown Callers</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>50</code>
+			<label>Update On/Off Toggle</label>
+			<Str sr="arg0" ve="3">Settings</Str>
+			<Str sr="arg1" ve="3">Profile On/Off</Str>
+			<Int sr="arg2">
+				<var>1</var>
+			</Int>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>159</code>
+			<label>Check Profile On</label>
+			<Str sr="arg0" ve="3">Quiet Unknown Callers</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%CallLogName</Str>
+			<Str sr="arg1" ve="3">QuietedCalls.csv</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>523</code>
+			<label>Persistent Notification</label>
+			<Str sr="arg0" ve="3">Quiet Unknown Callers Is Active</Str>
+			<Str sr="arg1" ve="3">Callers not in your contact list are being silenced.</Str>
+			<Str sr="arg10" ve="3"/>
+			<Str sr="arg11" ve="3"/>
+			<Img sr="arg2" ve="2">
+				<nme>hd_aaa_ext_phone_missed</nme>
+			</Img>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="2"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="2"/>
+			<Int sr="arg8" val="0"/>
+			<Str sr="arg9" ve="3"/>
+			<ListElementItem sr="item0">
+				<label>Call Log</label>
+				<Action sr="action" ve="7">
+					<code>910</code>
+					<label>Call Log</label>
+					<Int sr="arg0" val="0"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>mw_action_pageview</nme>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item1">
+				<label>Settings</label>
+				<Action sr="action" ve="7">
+					<code>47</code>
+					<Str sr="arg0" ve="3">Settings</Str>
+					<Int sr="arg1" val="6"/>
+					<Int sr="arg2" val="100"/>
+					<Int sr="arg3" val="100"/>
+					<Int sr="arg4" val="0"/>
+					<Int sr="arg5" val="0"/>
+					<Int sr="arg6" val="1"/>
+					<Int sr="arg7" val="1"/>
+					<Int sr="arg8" val="0"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>mw_action_settings</nme>
+				</Img>
+			</ListElementItem>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ProfileEnabled</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%CallsSilenced</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%InitialSetup</Str>
+			<Str sr="arg1" ve="3">done</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>47</code>
+			<label>Setup Instructions</label>
+			<Str sr="arg0" ve="3">Setup Instructions</Str>
+			<Int sr="arg1" val="6"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>319</code>
+			<label>Request Permissions</label>
+			<Str sr="arg0" ve="3">android.permission.READ_CALL_LOG
+android.permission.WRITE_CALL_LOG
+android.permission.READ_CONTACTS
+android.permission.WRITE_CONTACTS
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.DRAW_OVERLAYS
+android.permission.CALL_SCREENING</Str>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>319</code>
+			<label>Prompt Permissions</label>
+			<Str sr="arg0" ve="3">android.permission.READ_CALL_LOG
+android.permission.WRITE_CALL_LOG
+android.permission.READ_CONTACTS
+android.permission.WRITE_CONTACTS
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.DRAW_OVERLAYS
+android.permission.CALL_SCREENING</Str>
+			<Str sr="arg1" ve="3">Please provide requested permissions so that the app can work properly. No data is stored on the cloud. All data remains on your device. </Str>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task13">
+		<cdate>1631479465835</cdate>
+		<edate>1631479465835</edate>
+		<id>13</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">Setup Instructions</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">Settings</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>47</code>
+			<label>Setup Instructions</label>
+			<Str sr="arg0" ve="3">Setup Instructions</Str>
+			<Int sr="arg1" val="6"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task14">
+		<cdate>1631502967571</cdate>
+		<edate>1631502967571</edate>
+		<id>14</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>319</code>
+			<label>Request Permissions</label>
+			<Str sr="arg0" ve="3">android.permission.DRAW_OVERLAYS
+android.permission.CALL_SCREENING
+android.permission.READ_CALL_LOG
+android.permission.WRITE_CALL_LOG
+android.permission.READ_CONTACTS
+android.permission.WRITE_CONTACTS
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.WRITE_EXTERNAL_STORAGE</Str>
+			<Str sr="arg1" ve="3">Please provide requested permissions so that the app can work properly. No data is stored on the cloud. All data remains on your device. </Str>
+		</Action>
+	</Task>
+	<Task sr="task15">
+		<cdate>1631502967571</cdate>
+		<edate>1631502967571</edate>
+		<id>15</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">Settings</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">Setup Instructions</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Launch</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task3">
+		<cdate>1629484225409</cdate>
+		<edate>1631511262583</edate>
+		<id>3</id>
+		<nme>Silence Call</nme>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>386</code>
+			<label>Silence Caller</label>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""/&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>888</code>
+			<label>Quiet Unknown Calls Total</label>
+			<Str sr="arg0" ve="3">%CallsSilenced</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>523</code>
+			<label>Call Silenced Notification</label>
+			<Str sr="arg0" ve="3">Call Silenced</Str>
+			<Str sr="arg1" ve="3">A call from %cs_number was silenced because it is not in your phone's contacts. Total calls silenced: %CallsSilenced.</Str>
+			<Str sr="arg10" ve="3">0</Str>
+			<Str sr="arg11" ve="3">super_tasker_notifications_created_by_me_the_developer</Str>
+			<Img sr="arg2" ve="2">
+				<nme>hd_aaa_ext_phone_missed</nme>
+			</Img>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="5"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8">
+				<var>0</var>
+			</Int>
+			<Str sr="arg9" ve="3"/>
+			<ListElementItem sr="item0">
+				<label>Calls</label>
+				<Action sr="action" ve="7">
+					<code>910</code>
+					<Int sr="arg0" val="0"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>mw_action_pageview</nme>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item1">
+				<label>Settings</label>
+				<Action sr="action" ve="7">
+					<code>47</code>
+					<Str sr="arg0" ve="3">Settings</Str>
+					<Int sr="arg1" val="6"/>
+					<Int sr="arg2" val="100"/>
+					<Int sr="arg3" val="100"/>
+					<Int sr="arg4" val="0"/>
+					<Int sr="arg5" val="0"/>
+					<Int sr="arg6" val="1"/>
+					<Int sr="arg7" val="1"/>
+					<Int sr="arg8" val="0"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>mw_action_settings</nme>
+				</Img>
+			</ListElementItem>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>410</code>
+			<label>Call Quiet Log Entry</label>
+			<Str sr="arg0" ve="3">%AppDataPath/%CallLogName</Str>
+			<Str sr="arg1" ve="3">%DATE,%TIME,%cs_number</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task4">
+		<cdate>1631501537557</cdate>
+		<edate>1631501537557</edate>
+		<id>4</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<label>Close</label>
+			<Str sr="arg0" ve="3">Settings</Str>
+		</Action>
+	</Task>
+	<Task sr="task6">
+		<cdate>1631502967571</cdate>
+		<edate>1631502967571</edate>
+		<id>6</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>337</code>
+			<label>Expand Notification Settings</label>
+			<Str sr="arg0" ve="3"/>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task7">
+		<cdate>1631501537557</cdate>
+		<edate>1631501537557</edate>
+		<id>7</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<label>Close</label>
+			<Str sr="arg0" ve="3">Setup Instructions</Str>
+		</Action>
+	</Task>
+	<Task sr="task9">
+		<cdate>1631478823414</cdate>
+		<edate>1631478823414</edate>
+		<id>9</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<label>Set ProfileEnabled Variable</label>
+			<Str sr="arg0" ve="3">%ProfileEnabled</Str>
+			<Str sr="arg1" ve="3">%new_val</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">Quiet Unknown Callers</Str>
+			<Int sr="arg1" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ProfileEnabled</lhs>
+					<op>2</op>
+					<rhs>off</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>779</code>
+			<Str sr="arg0" ve="3"/>
+			<Int sr="arg1" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ProfileEnabled</lhs>
+					<op>2</op>
+					<rhs>off</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">Quiet Unknown Callers</Str>
+			<Int sr="arg1" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ProfileEnabled</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>523</code>
+			<label>Persistent Notification</label>
+			<Str sr="arg0" ve="3">Quiet Unknown Callers Is Active</Str>
+			<Str sr="arg1" ve="3">Callers not in your contact list are being silenced.</Str>
+			<Str sr="arg10" ve="3"/>
+			<Str sr="arg11" ve="3"/>
+			<Img sr="arg2" ve="2">
+				<nme>hd_aaa_ext_phone_missed</nme>
+			</Img>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="2"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
+			<Str sr="arg9" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ProfileEnabled</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
+			<ListElementItem sr="item0">
+				<label>Call Log</label>
+				<Action sr="action" ve="7">
+					<code>910</code>
+					<label>Call Log</label>
+					<Int sr="arg0" val="0"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>mw_action_pageview</nme>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item1">
+				<label>Settings</label>
+				<Action sr="action" ve="7">
+					<code>47</code>
+					<Str sr="arg0" ve="3">Settings</Str>
+					<Int sr="arg1" val="6"/>
+					<Int sr="arg2" val="100"/>
+					<Int sr="arg3" val="100"/>
+					<Int sr="arg4" val="0"/>
+					<Int sr="arg5" val="1"/>
+					<Int sr="arg6" val="1"/>
+					<Int sr="arg7" val="1"/>
+					<Int sr="arg8" val="0"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>mw_action_settings</nme>
+				</Img>
+			</ListElementItem>
+		</Action>
+	</Task>
+</TaskerData>
