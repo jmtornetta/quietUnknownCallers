@@ -36,4 +36,5 @@ Get it: https://play.google.com/store/apps/details?id=net.dinglisch.android.task
 3. Optionally push/pull silenced calls to a central database for analytics of problem callers
 4. Optionally add voicemail transcription and prompt-based call screening for silenced callers
 # Changelog
-09/13/2021 - v18 - First release
+09/15/2021 - v1.1 - Autostart application on device boot, if enabled.
+09/13/2021 - v1.0 - First release.
