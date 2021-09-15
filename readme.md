@@ -5,7 +5,7 @@ The application merely silences phones numbers that are not in your phone's cont
 
 We have chosen to limit this application to meddkit clients, friends, and those that find it via GitHub. We are limiting the number of users of this application by avoiding the Google Play store for now.
 # Installation
-1. Download and launch the latest release from your Android smartphone
+1. Download and launch the latest release [here](https://github.com/jmtornetta/quietUnknownCallers/releases/latest) from your Android smartphone
 2. Bypass warnings about installing apps from unknown sources (Note: having your device scan the app will not break anything but it may interrupt the automatic installation script. If this happens, you can "redo" installation by selecting "Reset Data" from the settings page and following the "Setup" page again.)
 4. If necessary, you may need to configure your Android phone to "Allow installation of apks from unknown sources"
 3. Follow the short setup page and provide all permissions, disable redundant notifications, and launch the app.
