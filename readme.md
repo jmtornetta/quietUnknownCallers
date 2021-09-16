@@ -32,11 +32,13 @@ Learn more: https://tasker.joaoapps.com/
 Get it: https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&hl=en&gl=us
 # Future
 1. (Potentially) Release on Google Play store 
-2. Configure scenes for landscape orientation (currently just portrait)
-3. Optionally silence text message notifications not in contact list either
-4. Optionally have vibration-only or reduce volume for unknown callers 
-5. Optionally push/pull silenced calls to a central database for analytics of problem callers
-6. Optionally add voicemail transcription and prompt-based call screening for silenced callers
+2. Add screenshots x3
+3. Force "Settings" from notification expand to overlay or focus the app's "Settings" page after "Call Log" (or another app) is already open
+4. Configure scenes for landscape orientation (currently just portrait)
+5. Optionally silence text message notifications not in contact list either
+6. Optionally have vibration-only or reduce volume for unknown callers 
+7. Optionally push/pull silenced calls to a central database for analytics of problem callers
+8. Optionally add voicemail transcription and prompt-based call screening for silenced callers
 # Changelog
 09/16/2021 - v1.2 - Consolidate setup, variables, error checks into discrete tasks for maintenance.  
 09/15/2021 - v1.1 - Autostart application on device boot, if enabled.  
