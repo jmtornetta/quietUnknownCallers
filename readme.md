@@ -31,6 +31,7 @@ This application was built with the Tasker application for Android.
 Learn more: https://tasker.joaoapps.com/
 Get it: https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&hl=en&gl=us
 # Future
+1. Set check to turn on autostart profile during setup 
 1. (Potentially) Release on Google Play store 
 2. Add screenshots x3
 3. Force "Settings" from notification expand to overlay or focus the app's "Settings" page after "Call Log" (or another app) is already open
