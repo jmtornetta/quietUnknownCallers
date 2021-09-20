@@ -27,19 +27,20 @@ We have chosen to limit this application to meddkit clients, friends, and those 
 7. Ad-hoc notifications whenever a call is silenced
 8. Unknown callers can still be answered (i.e. phone still "rings") but all noise and vibration is disabled
 # Credits
-This application was built with the Tasker application for Android.
-Learn more: https://tasker.joaoapps.com/
-Get it: https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&hl=en&gl=us
+This application was built with the Tasker application for Android.  
+Learn more: https://tasker.joaoapps.com/  
+Get it: https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&hl=en&gl=us  
 # Future
-1. Set check to turn on autostart profile during setup 
-1. (Potentially) Release on Google Play store 
-2. Add screenshots x3
-3. Force "Settings" from notification expand to overlay or focus the app's "Settings" page after "Call Log" (or another app) is already open
-4. Configure scenes for landscape orientation (currently just portrait)
-5. Optionally silence text message notifications not in contact list either
-6. Optionally have vibration-only or reduce volume for unknown callers 
-7. Optionally push/pull silenced calls to a central database for analytics of problem callers
-8. Optionally add voicemail transcription and prompt-based call screening for silenced callers
+1. Create variable for current scence and configure "Show Scene" tasks to destroy current scence based on this variable's value  
+2. Create text box description on "Advanced" scene with "Tap the setting title for additional information"  
+3. (Potentially) Release on Google Play store 
+4. Add screenshots x3
+5. Force "Settings" from notification expand to overlay or focus the app's "Settings" page after "Call Log" (or another app) is already open
+6. Configure scenes for landscape orientation (currently just portrait)
+7. Optionally silence text message notifications not in contact list either
+8. Optionally have vibration-only or reduce volume for unknown callers 
+9. Optionally push/pull silenced calls to a central database for analytics of problem callers
+10. Optionally add voicemail transcription and prompt-based call screening for silenced callers
 # Changelog
 ## 09/20/2021 - v1.3
 1. Fix "Autostart" by setting autostart profile to "On" during setup  
