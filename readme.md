@@ -41,6 +41,11 @@ Get it: https://play.google.com/store/apps/details?id=net.dinglisch.android.task
 7. Optionally push/pull silenced calls to a central database for analytics of problem callers
 8. Optionally add voicemail transcription and prompt-based call screening for silenced callers
 # Changelog
-09/16/2021 - v1.2 - Consolidate setup, variables, error checks into discrete tasks for maintenance.  
-09/15/2021 - v1.1 - Autostart application on device boot, if enabled.  
-09/13/2021 - v1.0 - First release.
+## 09/20/2021 - v1.3
+Fix "Autostart" by setting autostart profile to "On" during setup; Create "Advanced" settings menu; Consolidate "Scene Element Set Values" into "Toggle" tasks to minimize code; Create parent "Prep Scene" tasks for future which will contain all toggle tasks when scene is shown; Rename backup call log for readability; Change scene transition animations to fade for conistency and simplicity; Add help text prompts for advanced settings menu when title is tapped
+## 09/16/2021 - v1.2
+Consolidate setup, variables, error checks into discrete tasks for maintenance.  
+## 09/15/2021 - v1.1
+Autostart application on device boot, if enabled.  
+## 09/13/2021 - v1.0
+First release. Alpha version.
