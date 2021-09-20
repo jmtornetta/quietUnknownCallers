@@ -16,9 +16,10 @@
 	<Profile sr="prof8" ve="2">
 		<cdate>1629489770110</cdate>
 		<clp>true</clp>
-		<edate>1631707028322</edate>
+		<edate>1631827196587</edate>
 		<flags>8</flags>
 		<id>8</id>
+		<limit>true</limit>
 		<mid0>3</mid0>
 		<nme>Quiet Unknown Callers</nme>
 		<Share sr="Share">
@@ -57,8 +58,8 @@ Properties
 		<cdate>1631467555446</cdate>
 		<name>Quiet Unknown Callers</name>
 		<pids>5,8</pids>
-		<scenes>Popup Custom,Setup Instructions,Settings</scenes>
-		<tids>3,13,10,11,12,6,15,14,19,7,18,21,9,20,2,16,4,17</tids>
+		<scenes>Advanced,Settings,Popup Custom,Setup Instructions</scenes>
+		<tids>3,15,19,16,14,22,7,2,11,9,20,25,27,36,26,38,31,6,18,13,37,33,24,23,35,34,29,4,28,12,21,17</tids>
 		<Kid sr="Kid">
 			<launchID>12</launchID>
 			<pkg>com.jmtornetta.quietunknowncallers</pkg>
@@ -70,6 +71,177 @@ Properties
 			<nme>hl_aaa_ext_phone_missed</nme>
 		</Img>
 	</Project>
+	<Scene sr="sceneAdvanced">
+		<cdate>1631478306704</cdate>
+		<edate>1632146349314</edate>
+		<gridSize>20</gridSize>
+		<heightLand>700</heightLand>
+		<heightPort>1400</heightPort>
+		<nme>Advanced</nme>
+		<widthLand>1400</widthLand>
+		<widthPort>700</widthPort>
+		<ToggleElement sr="elements0">
+			<checkchangeTask>28</checkchangeTask>
+			<flags>4</flags>
+			<geom>379,381,278,120,200,491,298,150</geom>
+			<Str sr="arg0" ve="3">Autostart On/Off</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">Off</Str>
+			<Str sr="arg3" ve="3">On</Str>
+			<Int sr="arg4" val="12"/>
+			<Int sr="arg5" val="100"/>
+			<Str sr="arg6" ve="3">#FFFFFF</Str>
+		</ToggleElement>
+		<TextElement sr="elements1" ve="3">
+			<flags>4</flags>
+			<geom>41,84,615,120,81,133,536,358</geom>
+			<Str sr="arg0" ve="3">App Title</Str>
+			<Str sr="arg1" ve="3">Quiet Unknown Callers</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="2"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<ButtonElement sr="elements2" ve="3">
+			<clickTask>29</clickTask>
+			<flags>4</flags>
+			<geom>41,1156,615,119,140,967,418,119</geom>
+			<Str sr="arg0" ve="3">Return To Main</Str>
+			<Str sr="arg1" ve="3">Return To Main</Str>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<TextElement sr="elements3" ve="3">
+			<flags>4</flags>
+			<geom>41,1295,615,60,140,1265,418,60</geom>
+			<Str sr="arg0" ve="3">Copyright</Str>
+			<Str sr="arg1" ve="3">© 2021 by Jon Tornetta</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<ImageElement sr="elements4" ve="2">
+			<clickTask>31</clickTask>
+			<flags>4</flags>
+			<geom>617,0,80,80,599,0,101,133</geom>
+			<Str sr="arg0" ve="3">Close</Str>
+			<Img sr="arg1" ve="2">
+				<nme>mw_navigation_close</nme>
+			</Img>
+			<Int sr="arg2" val="255"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</ImageElement>
+		<TextElement sr="elements5" ve="3">
+			<flags>4</flags>
+			<geom>41,203,615,119,81,133,536,358</geom>
+			<Str sr="arg0" ve="3">Page Title</Str>
+			<Str sr="arg1" ve="3">Advanced</Str>
+			<Int sr="arg2" val="24"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements6" ve="3">
+			<clickTask>35</clickTask>
+			<flags>4</flags>
+			<geom>41,381,278,120,81,133,536,358</geom>
+			<Str sr="arg0" ve="3">Autostart Setting Title</Str>
+			<Str sr="arg1" ve="3">Autostart:</Str>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="4"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements7" ve="3">
+			<clickTask>36</clickTask>
+			<flags>4</flags>
+			<geom>41,520,278,120,81,133,536,358</geom>
+			<Str sr="arg0" ve="3">Reset Data Title</Str>
+			<Str sr="arg1" ve="3">Reset Data:</Str>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="4"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<ButtonElement sr="elements8" ve="3">
+			<clickTask>34</clickTask>
+			<flags>4</flags>
+			<geom>379,520,278,119,140,967,418,119</geom>
+			<Str sr="arg0" ve="3">Reset Data Button</Str>
+			<Str sr="arg1" ve="3">Reset</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">#FF000000</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
 	<Scene sr="scenePopup Custom">
 		<cdate>1631502037488</cdate>
 		<edate>1631821371072</edate>
@@ -201,7 +373,7 @@ Properties
 	</Scene>
 	<Scene sr="sceneSettings">
 		<cdate>1631478306704</cdate>
-		<edate>1631821836635</edate>
+		<edate>1632147562097</edate>
 		<gridSize>20</gridSize>
 		<heightLand>700</heightLand>
 		<heightPort>1400</heightPort>
@@ -236,7 +408,7 @@ Properties
 		<ButtonElement sr="elements10" ve="3">
 			<clickTask>13</clickTask>
 			<flags>4</flags>
-			<geom>41,1156,615,119,140,789,418,119</geom>
+			<geom>41,1017,615,119,140,789,418,119</geom>
 			<Str sr="arg0" ve="3">Setup Instructions</Str>
 			<Str sr="arg1" ve="3">Setup Instructions</Str>
 			<Int sr="arg2" val="14"/>
@@ -262,9 +434,9 @@ Properties
 		<ButtonElement sr="elements2" ve="3">
 			<clickTask>11</clickTask>
 			<flags>4</flags>
-			<geom>41,977,615,119,140,967,418,119</geom>
-			<Str sr="arg0" ve="3">Reset Data</Str>
-			<Str sr="arg1" ve="3">Reset Data</Str>
+			<geom>41,1156,615,119,140,967,418,119</geom>
+			<Str sr="arg0" ve="3">Advanced</Str>
+			<Str sr="arg1" ve="3">Advanced</Str>
 			<Int sr="arg2" val="14"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
@@ -273,9 +445,9 @@ Properties
 			<Img sr="arg7" ve="2"/>
 		</ButtonElement>
 		<ButtonElement sr="elements3" ve="3">
-			<clickTask>10</clickTask>
+			<clickTask>27</clickTask>
 			<flags>4</flags>
-			<geom>41,620,615,119,140,789,418,119</geom>
+			<geom>41,878,615,119,140,789,418,119</geom>
 			<Str sr="arg0" ve="3">Show Quieted Calls</Str>
 			<Str sr="arg1" ve="3">Show Quieted Calls</Str>
 			<Int sr="arg2" val="14"/>
@@ -287,7 +459,7 @@ Properties
 		</ButtonElement>
 		<TextElement sr="elements4" ve="3">
 			<flags>4</flags>
-			<geom>41,918,615,60,260,1146,179,60</geom>
+			<geom>41,659,615,60,260,1146,179,60</geom>
 			<Str sr="arg0" ve="3">Calls Silenced Number</Str>
 			<Str sr="arg1" ve="3">%CallsSilenced</Str>
 			<Int sr="arg2" val="8"/>
@@ -312,7 +484,7 @@ Properties
 		</TextElement>
 		<TextElement sr="elements5" ve="3">
 			<flags>4</flags>
-			<geom>41,858,615,60,140,1086,418,60</geom>
+			<geom>41,600,615,60,140,1086,418,60</geom>
 			<Str sr="arg0" ve="3">Calls Silenced Header</Str>
 			<Str sr="arg1" ve="3">Total Calls Silenced:</Str>
 			<Int sr="arg2" val="10"/>
@@ -325,7 +497,7 @@ Properties
 		</TextElement>
 		<TextElement sr="elements6" ve="3">
 			<flags>4</flags>
-			<geom>41,1315,615,60,140,1265,418,60</geom>
+			<geom>41,1295,615,60,140,1265,418,60</geom>
 			<Str sr="arg0" ve="3">Copyright</Str>
 			<Str sr="arg1" ve="3">© 2021 by Jon Tornetta</Str>
 			<Int sr="arg2" val="10"/>
@@ -338,7 +510,7 @@ Properties
 		</TextElement>
 		<TextElement sr="elements7" ve="3">
 			<flags>4</flags>
-			<geom>41,798,615,60,81,908,536,119</geom>
+			<geom>41,779,615,60,81,908,536,119</geom>
 			<Str sr="arg0" ve="3">File Path Location</Str>
 			<Str sr="arg1" ve="3">%AppDataPath/%CallLogName</Str>
 			<Int sr="arg2" val="8"/>
@@ -351,7 +523,7 @@ Properties
 		</TextElement>
 		<TextElement sr="elements8" ve="3">
 			<flags>4</flags>
-			<geom>41,739,615,60,81,848,536,60</geom>
+			<geom>41,719,615,60,81,848,536,60</geom>
 			<Str sr="arg0" ve="3">File Path Header</Str>
 			<Str sr="arg1" ve="3">Quieted Calls File Path:</Str>
 			<Int sr="arg2" val="10"/>
@@ -531,14 +703,14 @@ Finally, launch the app. Press "stop reminding" or "disable" when prompted on re
 			<Str sr="arg7" ve="3"/>
 		</PropertiesElement>
 	</Scene>
-	<Task sr="task10">
-		<cdate>1631479465835</cdate>
-		<edate>1631479465835</edate>
-		<id>10</id>
-		<pri>102</pri>
+	<Task sr="task11">
+		<cdate>1631480494588</cdate>
+		<edate>1631480494588</edate>
+		<id>11</id>
+		<pri>106</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">Check/Create Call Log File</Str>
+			<Str sr="arg0" ve="3">Show Advanced</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -552,87 +724,10 @@ Finally, launch the app. Press "stop reminding" or "disable" when prompted on re
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act1" ve="7">
-			<code>548</code>
-			<label>No Data Warning</label>
-			<Str sr="arg0" ve="3">No calls silenced yet or call data was recently reset.</Str>
-			<Int sr="arg1" val="1"/>
-			<ConditionList sr="if">
-				<bool0>Or</bool0>
-				<Condition sr="c0" ve="3">
-					<lhs>%CallsSilenced</lhs>
-					<op>13</op>
-					<rhs></rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%CallsSilenced</lhs>
-					<op>6</op>
-					<rhs>1</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>102</code>
-			<Str sr="arg0" ve="3">%AppDataPath/%CallLogName</Str>
-			<Str sr="arg1" ve="3">text/csv</Str>
-		</Action>
-	</Task>
-	<Task sr="task11">
-		<cdate>1631480494588</cdate>
-		<edate>1631480494588</edate>
-		<id>11</id>
-		<pri>102</pri>
-		<Action sr="act0" ve="7">
-			<code>547</code>
-			<label>Backup Prior Calls Silenced</label>
-			<Str sr="arg0" ve="3">%CallsSilencedBackup</Str>
-			<Str sr="arg1" ve="3">%CallsSilenced</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>547</code>
-			<label>Reset Counter</label>
-			<Str sr="arg0" ve="3">%CallsSilenced</Str>
-			<Str sr="arg1" ve="3">0</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>547</code>
-			<label>Reset Setup Status</label>
-			<Str sr="arg0" ve="3">%InitialSetup</Str>
-			<Str sr="arg1" ve="3">0</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>404</code>
-			<label>Backup Call Log</label>
-			<Str sr="arg0" ve="3">%AppDataPath/%CallLogName</Str>
-			<Str sr="arg1" ve="3">%AppDataPath/%DATE-bak.csv</Str>
-			<Int sr="arg2" val="0"/>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>406</code>
-			<label>Delete Call Log</label>
-			<Str sr="arg0" ve="3">%AppDataPath/%CallLogName</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-		</Action>
 	</Task>
 	<Task sr="task12">
 		<cdate>1631482549403</cdate>
-		<edate>1631821780401</edate>
+		<edate>1632147722152</edate>
 		<id>12</id>
 		<nme>Launch</nme>
 		<pri>100</pri>
@@ -661,7 +756,7 @@ Finally, launch the app. Press "stop reminding" or "disable" when prompted on re
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">Check/Create Call Log File</Str>
+			<Str sr="arg0" ve="3">Check Call Log File</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -675,94 +770,21 @@ Finally, launch the app. Press "stop reminding" or "disable" when prompted on re
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act10" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act11" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">Error Dialog</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3">Variable "ProfileEnabled" not set.</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act12" ve="7">
-			<code>38</code>
-		</Action>
 		<Action sr="act2" ve="7">
 			<code>47</code>
-			<label>Show Menu</label>
 			<Str sr="arg0" ve="3">Settings</Str>
 			<Int sr="arg1" val="6"/>
 			<Int sr="arg2" val="100"/>
 			<Int sr="arg3" val="100"/>
-			<Int sr="arg4" val="0"/>
+			<Int sr="arg4" val="2"/>
 			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="1"/>
 			<Int sr="arg7" val="1"/>
 			<Int sr="arg8" val="0"/>
 		</Action>
 		<Action sr="act3" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%ProfileEnabled</lhs>
-					<op>2</op>
-					<rhs>off</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>159</code>
-			<label>Check Profile Off</label>
-			<Str sr="arg0" ve="3">Quiet Unknown Callers</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>50</code>
-			<label>Update On/Off Toggle</label>
-			<Str sr="arg0" ve="3">Settings</Str>
-			<Str sr="arg1" ve="3">Profile On/Off</Str>
-			<Int sr="arg2">
-				<var>0</var>
-			</Int>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>43</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%ProfileEnabled</lhs>
-					<op>2</op>
-					<rhs>on</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act7" ve="7">
-			<code>159</code>
-			<label>Check Profile On</label>
-			<Str sr="arg0" ve="3">Quiet Unknown Callers</Str>
-			<Int sr="arg1" val="1"/>
-		</Action>
-		<Action sr="act8" ve="7">
-			<code>50</code>
-			<label>Update On/Off Toggle</label>
-			<Str sr="arg0" ve="3">Settings</Str>
-			<Str sr="arg1" ve="3">Profile On/Off</Str>
-			<Int sr="arg2">
-				<var>1</var>
-			</Int>
-		</Action>
-		<Action sr="act9" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">Persistent Notification</Str>
+			<Str sr="arg0" ve="3">Prep Settings Scene</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -781,23 +803,22 @@ Finally, launch the app. Press "stop reminding" or "disable" when prompted on re
 		<cdate>1631479465835</cdate>
 		<edate>1631479465835</edate>
 		<id>13</id>
-		<pri>114</pri>
+		<pri>122</pri>
 		<Action sr="act0" ve="7">
-			<code>47</code>
-			<label>Setup Instructions</label>
-			<Str sr="arg0" ve="3">Setup Instructions</Str>
-			<Int sr="arg1" val="6"/>
-			<Int sr="arg2" val="100"/>
-			<Int sr="arg3" val="100"/>
-			<Int sr="arg4" val="4"/>
+			<code>130</code>
+			<Str sr="arg0" ve="3">Show Setup Instructions</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="1"/>
-			<Int sr="arg7" val="1"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
 			<Int sr="arg8" val="0"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>49</code>
-			<Str sr="arg0" ve="3">Settings</Str>
+			<Int sr="arg9" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task14">
@@ -823,7 +844,7 @@ android.permission.WRITE_EXTERNAL_STORAGE</Str>
 		<cdate>1631502967571</cdate>
 		<edate>1631502967571</edate>
 		<id>15</id>
-		<pri>116</pri>
+		<pri>120</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Launch</Str>
@@ -847,7 +868,7 @@ android.permission.WRITE_EXTERNAL_STORAGE</Str>
 	</Task>
 	<Task sr="task16">
 		<cdate>1631628745585</cdate>
-		<edate>1631821329593</edate>
+		<edate>1632144183338</edate>
 		<id>16</id>
 		<nme>Autostart</nme>
 		<Action sr="act0" ve="7">
@@ -989,9 +1010,9 @@ android.permission.WRITE_EXTERNAL_STORAGE</Str>
 	</Task>
 	<Task sr="task18">
 		<cdate>1631811512376</cdate>
-		<edate>1631815424907</edate>
+		<edate>1632143418405</edate>
 		<id>18</id>
-		<nme>Set Variables</nme>
+		<nme>Set Default Variables</nme>
 		<Action sr="act0" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%AppDataPath</Str>
@@ -1034,6 +1055,16 @@ android.permission.WRITE_EXTERNAL_STORAGE</Str>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>547</code>
+			<Str sr="arg0" ve="3">%AutostartEnabled</Str>
+			<Str sr="arg1" ve="3">on</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
 			<Str sr="arg0" ve="3">%CallsSilenced</Str>
 			<Str sr="arg1" ve="3">0</Str>
 			<Int sr="arg2" val="0"/>
@@ -1042,7 +1073,7 @@ android.permission.WRITE_EXTERNAL_STORAGE</Str>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act6" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%InitialSetup</Str>
 			<Str sr="arg1" ve="3">done</Str>
@@ -1055,12 +1086,12 @@ android.permission.WRITE_EXTERNAL_STORAGE</Str>
 	</Task>
 	<Task sr="task19">
 		<cdate>1631812485842</cdate>
-		<edate>1631821665859</edate>
+		<edate>1632146936346</edate>
 		<id>19</id>
 		<nme>Setup</nme>
 		<Action sr="act0" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">Set Variables</Str>
+			<Str sr="arg0" ve="3">Set Default Variables</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -1075,21 +1106,7 @@ android.permission.WRITE_EXTERNAL_STORAGE</Str>
 			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
-			<code>47</code>
-			<label>Setup Instructions</label>
-			<Str sr="arg0" ve="3">Setup Instructions</Str>
-			<Int sr="arg1" val="6"/>
-			<Int sr="arg2" val="100"/>
-			<Int sr="arg3" val="100"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="1"/>
-			<Int sr="arg7" val="1"/>
-			<Int sr="arg8" val="0"/>
-		</Action>
-		<Action sr="act2" ve="7">
 			<code>319</code>
-			<label>Request Permissions</label>
 			<Str sr="arg0" ve="3">android.permission.READ_CALL_LOG
 android.permission.WRITE_CALL_LOG
 android.permission.READ_CONTACTS
@@ -1100,9 +1117,9 @@ android.permission.DRAW_OVERLAYS
 android.permission.CALL_SCREENING</Str>
 			<Str sr="arg1" ve="3"/>
 		</Action>
-		<Action sr="act3" ve="7">
+		<Action sr="act2" ve="7">
 			<code>319</code>
-			<label>Prompt Permissions</label>
+			<label>Asks for permissions again with prompt if not granted</label>
 			<Str sr="arg0" ve="3">android.permission.READ_CALL_LOG
 android.permission.WRITE_CALL_LOG
 android.permission.READ_CONTACTS
@@ -1112,6 +1129,35 @@ android.permission.WRITE_EXTERNAL_STORAGE
 android.permission.DRAW_OVERLAYS
 android.permission.CALL_SCREENING</Str>
 			<Str sr="arg1" ve="3">Please provide requested permissions so that the app can work properly. No data is stored on the cloud. All data remains on your device. </Str>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>130</code>
+			<label>Turns Autostart on for initial setup</label>
+			<Str sr="arg0" ve="3">Toggle Autostart</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">Setup Instructions</Str>
+			<Int sr="arg1" val="6"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task2">
@@ -1169,9 +1215,9 @@ android.permission.CALL_SCREENING</Str>
 	</Task>
 	<Task sr="task20">
 		<cdate>1631821077159</cdate>
-		<edate>1631821240996</edate>
+		<edate>1632147255890</edate>
 		<id>20</id>
-		<nme>Check/Create Call Log File</nme>
+		<nme>Check Call Log File</nme>
 		<Action sr="act0" ve="7">
 			<code>342</code>
 			<label>Test Quieted Calls Log Exists</label>
@@ -1205,6 +1251,424 @@ android.permission.CALL_SCREENING</Str>
 			<code>49</code>
 			<label>Close</label>
 			<Str sr="arg0" ve="3">Popup Custom</Str>
+		</Action>
+	</Task>
+	<Task sr="task22">
+		<cdate>1632137845785</cdate>
+		<edate>1632146500909</edate>
+		<id>22</id>
+		<nme>Toggle Autostart</nme>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%AutostartEnabled</Str>
+			<Str sr="arg1" ve="3">%new_val</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%new_val</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%new_val</lhs>
+					<op>2</op>
+					<rhs>off</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%AutostartEnabled</lhs>
+					<op>2</op>
+					<rhs>off</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>50</code>
+			<Str sr="arg0" ve="3">Advanced</Str>
+			<Str sr="arg1" ve="3">Autostart On/Off</Str>
+			<Int sr="arg2">
+				<var>0</var>
+			</Int>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">Device Boot Autostart</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%AutostartEnabled</Str>
+			<Str sr="arg1" ve="3">on</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>50</code>
+			<Str sr="arg0" ve="3">Advanced</Str>
+			<Str sr="arg1" ve="3">Autostart On/Off</Str>
+			<Int sr="arg2">
+				<var>1</var>
+			</Int>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">Device Boot Autostart</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%new_val</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task23">
+		<cdate>1632138460241</cdate>
+		<edate>1632145680714</edate>
+		<id>23</id>
+		<nme>Toggle Application</nme>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ProfileEnabled</Str>
+			<Str sr="arg1" ve="3">%new_val</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%new_val</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%new_val</lhs>
+					<op>2</op>
+					<rhs>off</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ProfileEnabled</lhs>
+					<op>2</op>
+					<rhs>off</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%new_val</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>50</code>
+			<Str sr="arg0" ve="3">Settings</Str>
+			<Str sr="arg1" ve="3">Profile On/Off</Str>
+			<Int sr="arg2">
+				<var>0</var>
+			</Int>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">Quiet Unknown Callers</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>779</code>
+			<Str sr="arg0" ve="3"/>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ProfileEnabled</Str>
+			<Str sr="arg1" ve="3">on</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>50</code>
+			<Str sr="arg0" ve="3">Settings</Str>
+			<Str sr="arg1" ve="3">Profile On/Off</Str>
+			<Int sr="arg2">
+				<var>1</var>
+			</Int>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">Quiet Unknown Callers</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Persistent Notification</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task24">
+		<cdate>1632138742860</cdate>
+		<edate>1632147643700</edate>
+		<id>24</id>
+		<nme>Reset Data</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<label>Backup Prior Calls Silenced</label>
+			<Str sr="arg0" ve="3">%CallsSilencedBackup</Str>
+			<Str sr="arg1" ve="3">%CallsSilenced</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Check Call Log File</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>404</code>
+			<label>Backup file with date appended to name</label>
+			<Str sr="arg0" ve="3">%AppDataPath/%CallLogName</Str>
+			<Str sr="arg1" ve="3">%AppDataPath/%DATE-%CallLogName.bak</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>406</code>
+			<Str sr="arg0" ve="3">%AppDataPath/%CallLogName</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<label>Reset Setup Status</label>
+			<Str sr="arg0" ve="3">%InitialSetup</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Launch</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">Advanced</Str>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Quiet Unknown Callers data reset.</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task25">
+		<cdate>1632138923394</cdate>
+		<edate>1632147695686</edate>
+		<id>25</id>
+		<nme>Show Setup Instructions</nme>
+		<Action sr="act0" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">Setup Instructions</Str>
+			<Int sr="arg1" val="6"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="2"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">Settings</Str>
+		</Action>
+	</Task>
+	<Task sr="task26">
+		<cdate>1632138997606</cdate>
+		<edate>1632139001813</edate>
+		<id>26</id>
+		<nme>Show Quieted Call Log</nme>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Check Call Log File</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>548</code>
+			<label>No Data Warning</label>
+			<Str sr="arg0" ve="3">No calls silenced yet or call data was recently reset.</Str>
+			<Int sr="arg1" val="1"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%CallsSilenced</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%CallsSilenced</lhs>
+					<op>6</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>102</code>
+			<Str sr="arg0" ve="3">%AppDataPath/%CallLogName</Str>
+			<Str sr="arg1" ve="3">text/csv</Str>
+		</Action>
+	</Task>
+	<Task sr="task27">
+		<cdate>1632139039432</cdate>
+		<edate>1632139039432</edate>
+		<id>27</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Show Quieted Call Log</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task28">
+		<cdate>1631478823414</cdate>
+		<edate>1631478823414</edate>
+		<id>28</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Toggle Autostart</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task29">
+		<cdate>1631480494588</cdate>
+		<edate>1631480494588</edate>
+		<id>29</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Launch</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">Advanced</Str>
 		</Action>
 	</Task>
 	<Task sr="task3">
@@ -1292,11 +1756,149 @@ android.permission.CALL_SCREENING</Str>
 			<Int sr="arg3" val="1"/>
 		</Action>
 	</Task>
+	<Task sr="task31">
+		<cdate>1631501537557</cdate>
+		<edate>1631501537557</edate>
+		<id>31</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<label>Close</label>
+			<Str sr="arg0" ve="3">Advanced</Str>
+		</Action>
+	</Task>
+	<Task sr="task33">
+		<cdate>1632138923394</cdate>
+		<edate>1632147572221</edate>
+		<id>33</id>
+		<nme>Show Advanced</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">Advanced</Str>
+			<Int sr="arg1" val="6"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="2"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Prep Advanced Scene</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">Settings</Str>
+		</Action>
+	</Task>
+	<Task sr="task34">
+		<cdate>1631480494588</cdate>
+		<edate>1631480494588</edate>
+		<id>34</id>
+		<pri>108</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Reset Data</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task35">
+		<cdate>1632140433789</cdate>
+		<edate>1632140433789</edate>
+		<id>35</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Starts the application automatically when device boots up.</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task36">
+		<cdate>1632140523279</cdate>
+		<edate>1632140523279</edate>
+		<id>36</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Resets number of calls silenced, call log (csv), variables, and reinitializes set up on next launch.</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task37">
+		<cdate>1632141522054</cdate>
+		<edate>1632146587699</edate>
+		<id>37</id>
+		<nme>Prep Settings Scene</nme>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Toggle Application</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task38">
+		<cdate>1632141522054</cdate>
+		<edate>1632146591616</edate>
+		<id>38</id>
+		<nme>Prep Advanced Scene</nme>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Toggle Autostart</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
 	<Task sr="task4">
 		<cdate>1631501537557</cdate>
 		<edate>1631501537557</edate>
 		<id>4</id>
-		<pri>118</pri>
+		<pri>104</pri>
 		<Action sr="act0" ve="7">
 			<code>49</code>
 			<label>Close</label>
@@ -1319,7 +1921,7 @@ android.permission.CALL_SCREENING</Str>
 		<cdate>1631501537557</cdate>
 		<edate>1631501537557</edate>
 		<id>7</id>
-		<pri>108</pri>
+		<pri>124</pri>
 		<Action sr="act0" ve="7">
 			<code>49</code>
 			<label>Close</label>
@@ -1330,56 +1932,10 @@ android.permission.CALL_SCREENING</Str>
 		<cdate>1631478823414</cdate>
 		<edate>1631478823414</edate>
 		<id>9</id>
-		<pri>118</pri>
+		<pri>102</pri>
 		<Action sr="act0" ve="7">
-			<code>547</code>
-			<label>Set ProfileEnabled Variable</label>
-			<Str sr="arg0" ve="3">%ProfileEnabled</Str>
-			<Str sr="arg1" ve="3">%new_val</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%ProfileEnabled</lhs>
-					<op>2</op>
-					<rhs>off</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>159</code>
-			<Str sr="arg0" ve="3">Quiet Unknown Callers</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>779</code>
-			<Str sr="arg0" ve="3"/>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>43</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%ProfileEnabled</lhs>
-					<op>2</op>
-					<rhs>on</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>159</code>
-			<Str sr="arg0" ve="3">Quiet Unknown Callers</Str>
-			<Int sr="arg1" val="1"/>
-		</Action>
-		<Action sr="act6" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">Persistent Notification</Str>
+			<Str sr="arg0" ve="3">Toggle Application</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -1388,32 +1944,10 @@ android.permission.CALL_SCREENING</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
+			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act7" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act8" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">Error Dialog</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3">On/Off toggle failed to set "ProfileEnabled".</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>38</code>
 		</Action>
 	</Task>
 </TaskerData>
