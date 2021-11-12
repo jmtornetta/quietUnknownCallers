@@ -32,6 +32,7 @@ Learn more: https://tasker.joaoapps.com/
 Get it: https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&hl=en&gl=us  
 # Future
 1. Create variable for current scence and configure "Show Scene" tasks to destroy current scence based on this variable's value  
+2. Update notification shortcuts to close/shrink notification drawer when selected prior to launching shortcut.  
 2. Create text box description on "Advanced" scene with "Tap the setting title for additional information"  
 3. (Potentially) Release on Google Play store 
 4. Add screenshots x3
