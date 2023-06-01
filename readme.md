@@ -3,7 +3,7 @@ Android app that silences robocallers, telemarketers, and spamcallers 99%+ of th
 
 The application merely silences phones numbers that are not in your phone's contact list. It still allows you to answer unknown numbers for scheduled conference calls and business calls. So, you don't have to worry about missing that important call that is buried in a sea of spam.
 
-We have chosen to limit this application to meddkit clients, friends, and those that find it via GitHub. We are limiting the number of users of this application by avoiding the Google Play store for now.
+
 # Installation
 1. Download and launch the latest release [here](https://github.com/jmtornetta/quietUnknownCallers/releases/latest) from your Android smartphone
 2. Bypass warnings about installing apps from unknown sources (Note: having your device scan the app will not break anything but it may interrupt the automatic installation script. If this happens, you can "redo" installation by selecting "Reset Data" from the settings page and following the "Setup" page again.)
